@@ -1,0 +1,58 @@
+Python Summary:
+* Python is a popular programming language created by Guido van Rossum and first released in 1991. 
+* It is simple, easy to learn, and easy to read. 
+* Python is used for web development, automation, data analysis, Artificial Intelligence (AI), Machine Learning, and many other applications.
+
+Why we use python?
+* We use Python because it has simple and easy-to-understand syntax. 
+* It requires fewer lines of code compared to many other programming languages. 
+* Python also has many useful libraries that make development faster and easier. 
+* It can run on different operating systems such as Windows, Linux, and macOS.
+
+Advantages:
+* Easy to learn
+* Less coding
+* Easy to read
+* Has many ready to use libraries
+* It has a large community
+* Cross-platform
+
+Disadvantages:
+* High memory usage
+* Slower than compiled languages C and C++
+* Not ideal for mobile development
+
+What is pseudo code?
+* It is a simple way of writing the steps of a program before writing the actual code
+* It uses plain language and does not follow any rules
+* It helps programmers plan and understand the logic of a program
+* It cannot be executed by a computer
+* It is mainly used for planning and designing programs
+
+
+Pseudocode for reading a file:
+
+START
+
+    //Declare a string variable to store each line of text
+    DECLARE LineText as STRING
+
+    //Open the file in Read Only mode
+    OPEN FILE "python.txt" for READ
+
+    //Loop thru the file until EOF is reached
+    WHILE NOT EOF("python.txt") DO
+
+        //Read the current line and store it in the variable
+        LineText = line of "python.txt"
+
+        //Display the line
+        PRINT LineText
+    END WHILE
+
+    //Always close the file when finished
+    CLOSE FILE 
+
+END
+
+
