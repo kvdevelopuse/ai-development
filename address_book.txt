@@ -3,11 +3,13 @@ Contact: ki@gmail.com
 Address: fab apartments, #104, mbz, abudhabi
 Phone Number: 0501111111
 Address Word Count: 6
+Address Word Count: 6
 
 Name: Mehul Kiran
 Contact: me@gmail.com
 Address: fab apartments, #205, mbz, abudhabi
 Phone Number: 0502222222
+Address Word Count: 6
 Address Word Count: 6
 
 Name: Meghna Kiran
@@ -15,11 +17,13 @@ Contact: meg@gmail.com
 Address: al nasr palace, #305, oud metha, dubai
 Phone Number: 0503333333
 Address Word Count: 8
+Address Word Count: 8
 
 Name: sdfsdf
 Contact: sdfsdf
 Address: dsfsdfs
 Phone Number: 2222222
+Address Word Count: 2
 Address Word Count: 2
 
 
