@@ -31,12 +31,19 @@ def speaking_is_expensive(word, price_per_letter):
 
 
 # print(speaking_is_expensive("speaking is expensive", 5))
+while True:
+    sentence = input("Enter a sentence: ")
+    price_per_letter = input("Enter price per letter: ")
 
-sentence = input("Enter a sentence: ")
-price_per_letter = input("Enter price per letter: ")
+    if (sentence == "" or price_per_letter == "" or price_per_letter.isdigit() == False or int(price_per_letter) < 0):
+        print("Error: Invalid input. Please enter a valid sentence and a non-negative value for price")
+        continue
+    else:
+        price_per_letter = int(price_per_letter)
+        print(speaking_is_expensive(sentence, int(price_per_letter)))
 
-if (sentence == "" or price_per_letter == "" or price_per_letter.isdigit() == False or int(price_per_letter) < 0):
-    print("Error: Invalid input. Please enter a valid sentence and a non-negative value for price")
-else:
-    price_per_letter = int(price_per_letter)
-    print(speaking_is_expensive(sentence, int(price_per_letter)))
+    continue_input = input("Do you want to continue? (y/n): ")
+
+    if (continue_input.lower() != 'y'):
+        print('Program ended.')
+        break

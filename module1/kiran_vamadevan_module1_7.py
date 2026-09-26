@@ -12,6 +12,7 @@ while True:
 
     if inputString == "":
         print("Error: Invalid input. Please enter a valid string")
+        continue
     else:
         print(display_string(inputString))
 
