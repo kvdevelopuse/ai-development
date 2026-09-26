@@ -1,6 +1,6 @@
 def get_data_type(data):
-    dataType = type(data)
-    return (f"({data}, {dataType})")
+    dataType = type(data).__name__
+    return (f"({data} + {dataType})")
 
 
 print(get_data_type(10))

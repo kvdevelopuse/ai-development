@@ -1,0 +1,1 @@
+print("Mandatory AI Development")
