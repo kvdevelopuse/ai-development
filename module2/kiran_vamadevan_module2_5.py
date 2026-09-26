@@ -25,6 +25,7 @@ def print_board(board_pos):
     print()
 
 
+# function to check if a player has won
 def check_winner(board, player):
     winning_positions = [
         [0, 1, 2],
@@ -82,6 +83,9 @@ while True:
     # Add X or O to the selected position
     board[position] = player
     moves_count += 1
+
+    # Display updated board
+    print_board(board)
 
     # Check if current player has won
     if check_winner(board, player):
