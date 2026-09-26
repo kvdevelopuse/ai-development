@@ -1,0 +1,11 @@
+D:\projects\OfficeProject\exercises\ai-development> python --version
+D:\projects\OfficeProject\exercises\ai-development> pip install fastapi
+ D:\projects\OfficeProject\exercises\ai-development\module3> python -m pip install fastapi uvicorn
+ D:\projects\OfficeProject\exercises\ai-development\module3> .\.venv\Scripts\python.exe -m pip install fastapi uvicorn
+ D:\projects\OfficeProject\exercises\ai-development\module3> .\.venv\Scripts\python.exe -m uvicorn kiran_vamadevan_module3_1:app --reload
+
+
+
+run this to start server --> .\.venv\Scripts\python.exe -m uvicorn kiran_vamadevan_module3_2:app --reload
+$ D:\projects\OfficeProject\exercises\ai-development\module3> .\.venv\Scripts\python.exe -m uvicorn kiran_vamadevan_module3_2:app --reload
+ http://127.0.0.1:8000/docs#/
