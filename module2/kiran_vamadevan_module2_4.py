@@ -33,7 +33,7 @@ people = [
 ]
 
 
-with open("people.json", "w") as file:
+with open("people.json", "w", encoding='utf-8') as file:
     json.dump(people, file, indent=4)
 
 
