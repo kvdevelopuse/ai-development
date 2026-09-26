@@ -20,4 +20,6 @@ Name: sdfsdf
 Contact: sdfsdf
 Address: dsfsdfs
 Phone Number: 2222222
+Address Word Count: 2
+
 

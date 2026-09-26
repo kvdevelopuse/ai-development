@@ -15,10 +15,8 @@ def get_address_word_count():
             if line.startswith("Phone"):
                 new_lines.append("Address Word Count: " +
                                  str(address_word_count) + "\n")
-                print("After append:", new_lines)
 
     with open("address_book.txt", "w") as file:
-        print(new_lines)
         file.writelines(new_lines)
 
 
