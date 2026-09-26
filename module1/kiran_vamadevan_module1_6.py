@@ -14,12 +14,29 @@ class Person:
             file.write("\n")  # Add a newline for separation between entries
 
 
-name = input("Enter your name: ")
-contact = input("Enter your contact: ")
-address = input("Enter your address: ")
-phoneNumber = input("Enter your phone number: ")
+while True:
+    name = input("Enter your name: ")
+    contact = input("Enter your contact: ")
+    address = input("Enter your address: ")
+    phoneNumber = input("Enter your phone number: ")
 
-person = Person(name, contact, address, phoneNumber)
-person.save_address()
+    person = Person(name, contact, address, phoneNumber)
+    person.save_address()
 
-print("Address saved successfully")
+    print("Address saved successfully")
+
+    continue_input = input("Do you want to continue? (y/n): ")
+
+    if (continue_input.lower() != 'y'):
+        print('Program ended.')
+        break
+
+# name = input("Enter your name: ")
+# contact = input("Enter your contact: ")
+# address = input("Enter your address: ")
+# phoneNumber = input("Enter your phone number: ")
+
+# person = Person(name, contact, address, phoneNumber)
+# person.save_address()
+
+# print("Address saved successfully")

@@ -1,10 +1,18 @@
 Name: Kiran Vamadevan
 Contact: ki@gmail.com
-Address: Fab Apartment, #104, MBZ, Abudhabi
-Phone Number: 051233346
+Address: fab apartments, #104, mbz, abudhabi
+Phone Number: 0501111111
+Address Word Count: 6
 
-Name: Manju Parakkal
-Contact: mp@gmail.com
-Address: saa, corniche, abudhabi
-Phone Number: 0501234567
+Name: Mehul Kiran
+Contact: me@gmail.com
+Address: fab apartments, #205, mbz, abudhabi
+Phone Number: 0502222222
+Address Word Count: 6
+
+Name: Meghna Kiran
+Contact: meg@gmail.com
+Address: al nasr palace, #305, oud metha, dubai
+Phone Number: 0503333333
+Address Word Count: 8
 
