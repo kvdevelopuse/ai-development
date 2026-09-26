@@ -23,7 +23,11 @@ def speaking_is_expensive(word, price_per_letter):
     # get price of the shifted string
     price_of_string = total_letters * price_per_letter
 
-    return (f"({shifted_string}, {word_count}, {price_of_string})")
+    return {
+        "Shifted String": shifted_string,
+        "Word Count": word_count,
+        "Price Of String": price_of_string
+    }
 
 
 # print(speaking_is_expensive("speaking is expensive", 5))
