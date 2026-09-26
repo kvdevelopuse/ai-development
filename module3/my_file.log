@@ -1,0 +1,15 @@
+GET /docs 200
+GET /openapi.json 200
+GET /hello 200
+{'method': 'GET', 'path': '/docs', 'status': 200}
+{'method': 'GET', 'path': '/openapi.json', 'status': 200}
+{'method': 'GET', 'path': '/hello', 'status': 200}
+{'method': 'GET', 'path': '/docs', 'status': 200}
+{'method': 'GET', 'path': '/openapi.json', 'status': 200}
+{'method': 'GET', 'path': '/hello', 'status': 200}
+{'method': 'POST', 'path': '/saveDetails', 'status': 200}
+{'method': 'GET', 'path': '/docs', 'status': 200}
+{'method': 'GET', 'path': '/openapi.json', 'status': 200}
+{'method': 'GET', 'path': '/hello', 'status': 200}
+{'method': 'POST', 'path': '/saveDetails', 'status': 200}
+{'method': 'GET', 'path': '/getDetails', 'status': 200}
